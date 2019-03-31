@@ -26,7 +26,6 @@ export default class App extends Component {
 					<Profile path="/profile/" user="me" />
 					<Profile path="/profile/:user" />
 				</Router>
-				<div><button type="button">Happy Button!</button></div>
 			</div>
 		);
 	}
